@@ -1,0 +1,8 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+api_login:
+    path: /api/login
+    methods: POST
+    controller: App\Security\ApiLoginAuthenticator
+
